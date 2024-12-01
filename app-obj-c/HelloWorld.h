@@ -1,5 +1,5 @@
 //
-//  helloworld.h
+//  HelloWorld.h
 //  app-obj-c
 //
 //  Created by JacksonKuo on 11/30/24.
@@ -9,6 +9,6 @@
 
 @interface HelloWorld : NSObject
 
-- (void)sayHello;
+- (NSString *)sayHello:(NSString *)message;
 
 @end
