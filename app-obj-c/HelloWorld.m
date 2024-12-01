@@ -10,8 +10,9 @@
 @implementation HelloWorld
 
 - (NSString *)sayHello:(NSString *)message {
-    NSLog(@"sayHello arg: %@", message);
-    return message;
+    NSString *localmessage = [NSString stringWithFormat:@"sayHello arg: %@", message];
+    NSLog(@"%@", localmessage);
+    return localmessage;
 }
 
 @end
